@@ -119,4 +119,4 @@ odds = odds.drop_duplicates(keep='last')
 odds = odds.sort_values(by=['game_time', 'rot_num', 'move_time'])
 
 # export
-odds.to_csv("~/documents/mlb_analysis/raw_data/odds.csv")
+odds.to_csv("~/documents/mlb_analysis/odds.csv")
